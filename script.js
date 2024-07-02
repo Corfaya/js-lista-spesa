@@ -13,5 +13,9 @@ while (i < ingredients.length) {
 
 // --- PERSONAL EXERCISES ---
 document.getElementById("add-ingredients").addEventListener("click", function() {
-    
+    let newIngredient = document.getElementById("ingredients").value;
+    ingredients.push(newIngredient)
+    let li = document.createElement("li")
+    li.innerHTML = newIngredient;
+    shoppingList.append(li)
 })
