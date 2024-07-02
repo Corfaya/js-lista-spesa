@@ -6,5 +6,5 @@ const shoppingList = document.getElementById("shopping-list")
 let i = 0
 while (i < ingredients.length) {
     let li = document.createElement("li")
-    
+    li.innerHTML = ingredients[i]
 }
