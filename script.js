@@ -7,4 +7,6 @@ let i = 0
 while (i < ingredients.length) {
     let li = document.createElement("li")
     li.innerHTML = ingredients[i]
+    shoppingList.append(li)
+    i++
 }
